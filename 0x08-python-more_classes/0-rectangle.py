@@ -1,9 +1,8 @@
 #!/usr/bin/python3
 
 """I will write an empty class Rectangle that defines a rectangle"""
+
 class Rectangle:
-    pass
 
-obj = Rectangle()
-
-print (obj)
+    """Create an empty Rectangle object"""
+    passed
