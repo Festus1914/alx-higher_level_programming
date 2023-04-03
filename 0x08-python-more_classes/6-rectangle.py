@@ -1,24 +1,22 @@
 #!/usr/bin/python3
-"""Defines a Rectangle named  class."""
+"""Defines a Rectangle class."""
 
 
 class Rectangle:
-    """Subtitute  a rectangle.
-    
-
+    """Represent a rectangle.
     Attributes:
         number_of_instances (int): The number of Rectangle instances.
-        """
+    """
 
     number_of_instances = 0
 
-    
     def __init__(self, width=0, height=0):
         """Initialize a new Rectangle.
         Args:
             width (int): The width of the new rectangle.
             height (int): The height of the new rectangle.
         """
+        type(self).number_of_instances += 1
         self.width = width
         self.height = height
 
@@ -79,6 +77,6 @@ class Rectangle:
         return (rect)
 
     def __del__(self):
-        ""'I will print a message for every delete that occured in a Rectangle""'
+        """Print a message for every deletion of a Rectangle."""
         type(self).number_of_instances -= 1
         print("Bye rectangle...")
