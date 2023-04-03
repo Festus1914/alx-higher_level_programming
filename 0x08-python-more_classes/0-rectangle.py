@@ -2,7 +2,6 @@
 """Creating an empty Rectangle"""
 
 
-
 class Rectangle:
-""" Subtitute a Rectangle"""
-passed
+    """Subtitute this with a Rectangle"""
+    pass
