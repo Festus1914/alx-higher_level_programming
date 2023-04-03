@@ -6,7 +6,12 @@ class Rectangle:
     """Subtitute this with a Rectangle"""
 
     def __init__(self, width=0, height=0):
-        """Creating a new Rectangle"""
+        """Creating a new Rectangle
+
+        Args:
+            width (int): The width of a new rectangle.
+            height (int): The height of a new rectangle.
+            """
 
         self. width = width
         self.height = height
