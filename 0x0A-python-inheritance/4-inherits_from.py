@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """Write a function that returns Tru
-e if the object is an instance of a class."""
+e if the object is an instance of a class.
+"""
 
 
 
