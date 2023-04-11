@@ -8,7 +8,7 @@ Creating an empty class BaseGeometry.
 
 class BaseGeometry:
     """
-    Class: BaseGeometry
+         Class: BaseGeometry
     """
 
     pass
