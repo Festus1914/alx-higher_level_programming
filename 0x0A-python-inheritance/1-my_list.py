@@ -6,5 +6,12 @@
 
 
 class MyList(list):
+    '''Represent a MyList
+    '''
+    
     def print_sorted(self):
+        '''
+        Prints the list, but sorted
+        '''
+
         print(sorted(self))
