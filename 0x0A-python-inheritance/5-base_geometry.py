@@ -3,8 +3,11 @@
 Creating an empty class BaseGeometry.
 """
 
+
+
+
 class BaseGeometry:
     """
-    Empty class created
+    Class: BaseGeometry
     """
     pass
