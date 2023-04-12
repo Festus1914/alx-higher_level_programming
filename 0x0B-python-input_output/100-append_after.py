@@ -4,7 +4,7 @@ Function that inserts a line of text to a file, after each line containing a spe
 '''
 
 
-idef append_after(filename="", search_string="", new_string=""):
+def append_after(filename="", search_string="", new_string=""):
     ''' Function search and update.
     '''
     with open(filename, 'r+') as f:
