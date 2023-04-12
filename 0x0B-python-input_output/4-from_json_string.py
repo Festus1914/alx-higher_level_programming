@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 '''Defines JSON to object functions.
 '''
-
 import json
 
 
