@@ -5,7 +5,7 @@
 class Student:
     '''Module class students
     '''
-iiii
+
     def __init__(self, first_name, last_name, age):
         ''' Method to __init__
         '''
