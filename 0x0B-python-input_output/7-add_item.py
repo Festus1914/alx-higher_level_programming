@@ -2,7 +2,7 @@
 '''Adding all argument the the python list and saving them to the file.'''
 import sys
 
-if __name == "__main__"":
+if __name == "__main__":
     save_to_json_file = __import__('5-save_to_json_file.py').save_to_json_file
     load_from_json_file = \
             __import__('6-load_from_json_file.py').load_from_json_file
