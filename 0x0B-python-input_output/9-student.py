@@ -3,7 +3,7 @@
 '''
 
 
-class student:
+class Student:
     '''Module class students
     '''
 
