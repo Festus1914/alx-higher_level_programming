@@ -1,9 +1,10 @@
 #!/usr/bin/python3
-'''  Function that inserts a line of text to a file, after each line containing a specific string
+''' 
+Function that inserts a line of text to a file, after each line containing a specific string
 '''
 
 
-def append_after(filename="", search_string="", new_string=""):
+idef append_after(filename="", search_string="", new_string=""):
     ''' Function search and update.
     '''
     with open(filename, 'r+') as f:
@@ -15,4 +16,3 @@ def append_after(filename="", search_string="", new_string=""):
             i += 1
         f.seek(0)
         f.write("".join(lines))
-
