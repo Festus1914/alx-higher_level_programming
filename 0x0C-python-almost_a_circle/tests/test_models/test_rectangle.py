@@ -6,7 +6,6 @@ Unittest classes:
     TestRectangle_height - line 190
     TestRectangle_x - line 262
     TestRectangle_y - line 334
-    TestRectangle_order_of_initialization - line 402
     TestRectangle_area - line 430
     TestRectangle_update_args - line 538
     TestRectangle_update_kwargs - line 676
