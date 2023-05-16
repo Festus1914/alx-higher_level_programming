@@ -7,21 +7,21 @@ CREATE TABLE IF NOT EXISTS second_table (
 );
 INSERT INTO second_table VALUES (
 	id = 1,
-	name = “John”,
+	name = 'John',
 	score = 10
 );
 INSERT INTO second_table VALUES (
 	id = 2,
-	name = “Alex”,
+	name = 'Alex',
 	score = 3
 );
 INSERT INTO second_table VALUES (
 	id = 3,
-	name = “Bob”,
+	name ='Bob',
 	score = 14
 );
 INSERT INTO second-table VALUES (
 	id = 4,
-	name = “George”,
+	name = 'George',
 	score = 8
 );
