@@ -1,14 +1,20 @@
 #!/usr/bin/node
-let num = process.argv[2];
-
-if (isNaN(num)) {
-  console.log('Missing size');
-} else {
-  for (let i = 0; i < num; i++) {
-    let msg = '';
-    for (let j = 0; j < num; j++) {
-      msg = msg + 'X';
+function printSquare(size) {
+  const squareSize = parseInt(size);
+  
+  if (isNaN(squareSize)) {
+    console.log("Missing size");
+    return;
+  }
+  
+  for (let i = 0; i < squareSize; i++) {
+    let row = "";
+    for (let j = 0; j < squareSize; j++) {
+      row += "X";
     }
-    console.log(msg);
+    console.log(row);
   }
 }
+
+const squareSize = process.argv[2];
+printSquare(squareSize);
