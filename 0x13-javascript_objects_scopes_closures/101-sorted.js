@@ -1,17 +1,11 @@
 #!/usr/bin/node
+const list = require('./101-data').dict;
+const sorted = {};
 
-exports.dict = {
+Object.keys(list).forEach(key => {
+  if (sorted[list[key]] === undefined) sorted[list[key]] = [];
 
-  89: 1,
-
-  90: 2,
-
-  91: 1,
-
-  92: 3,
-
-  93: 1,
-
-  94: 2
-
-};
+  sorted[list[key]].push(key);
+}
+);
+console.log(sorted);
