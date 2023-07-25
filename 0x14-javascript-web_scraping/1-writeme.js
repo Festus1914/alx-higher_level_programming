@@ -1,9 +1,5 @@
 #!/usr/bin/node
 const fs = require('fs');
-fs.readFile('404.txt', 'utf-8', (err, data) => {
-if (err) {
-console.error(err);
-// log the error here
-}
-console.log(data);
+fs.writeFile(process.argv[2], process.argv[3], error => {
+  if (error) console.log(error);
 });
